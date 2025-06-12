@@ -1,0 +1,21 @@
+{
+  "name": "vite-vue-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest --run --coverage"
+  },
+  "dependencies": {
+    "vue": "^3.5.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vitest/browser": "^3.2.3",
+    "@vitest/coverage-istanbul": "^3.2.3",
+    "@vue/test-utils": "^2.4.6",
+    "playwright": "^1.53.0",
+    "sass-embedded": "^1.89.2",
+    "vite": "^6.3.5"
+  }
+}
